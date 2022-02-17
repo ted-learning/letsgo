@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	s := "Yes我爱慕课网!"
+	s := "Yes我爱hello网!"
 	fmt.Println(len(s))
 	for _, b := range []byte(s) {
 		fmt.Printf("%X ", b)
